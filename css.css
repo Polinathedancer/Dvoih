@@ -1,0 +1,69 @@
+*{margin: 0;}
+.vesagalo {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+body{
+    background: linear-gradient(148.92deg, #80E0FF 18.8%, #007397 85.77%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.vvod{
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 44px;
+Width:476px;
+Height:60px;
+border:none;
+color: #141414;
+font-size: 20px;/*размер текста*/
+text-align: center;
+
+}
+.button{
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 44px;
+Width:196px;
+Height:60px;
+border:none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #141414;
+}
+.otvet{
+    background: #8FD0FF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 44px;
+Width:196px;
+Height:60px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #141414;
+display: flex;
+align-items: center;
+justify-content: center;/*Выравнивает ряд по горизонтали, если ряд горизонтальный*/
+}
+div{
+    display: flex;/*выставляет в ряд то, что лежит внутри этой коробки*/
+    flex-direction: column;/*делает ряд вертикальным */
+    align-items: center;/*Выставляет ряд по центру по горизонтали, если ряд вертикальный */
+    gap: 20px;/*Отступ между элементами */
+}
